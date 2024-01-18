@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Charan Raj's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 
@@ -46,15 +46,16 @@
             <!-- <h2 class="title2">Mahankali</h2> -->
             <p class="section__text__p2">Mahankali</p>
             <div class="btn-container">
-                <button class="btn btn-color-2"
-                onclick="window.open('./assets/resume1.pdf')">
+                <!-- <button class="btn btn-color-2"
+                onclick="window.open('./assets/cv.pdf')">
                 Download Resume
-                </button>
+                </button> -->
                 <button class="btn btn-color-1"
                 onclick="location.href='./#contact' ">
                 Contact Info.
                 </button>
             </div>
+            <br>
             <div id="socials-container">
                 <img
                     src="./assets/linkedinlogo.png"
@@ -72,42 +73,105 @@
         </div>
     </section>
     <section id="about">
-        <p class="section__text__p1">Get to know more..</p>
+        <p class="section__text__p1">Get to know more</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
                 <img 
-                    src="./assets/about2.png"
+                    src="./assets/aboutpic2.jpg"
                     alt="Profile picture"
                     class="about-pic"
                 />
             </div>
             <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img 
-                            src="./assets/skills.png"
-                            alt="Experience icon"
-                            class="icon"
-                        />
-                        <h3 style="color: white;">Experience</h3>
-                        <!-- <p>2+ years<br/>Frontend Developer</p> -->
-                    </div>
-                    <div class="details-container">
-                        <img 
-                            src="./assets/education2.png"
-                            alt="Education icon"
-                            class="icon"
-                        />
-                        <h3 style="color: white;">Education</h3>
-                        <!-- <p>Bachelor<br/></p> -->
-                    </div>
-                </div>
                 <div class="text-container">
-                    <p>
+                    <!-- <p>
                         A self-motivated and dedicated undergraduate student with a passion for software engineering and a solid foundation in programming and problem-solving. Seeking a software engineer position to apply my skills, collaborate with cross-functional teams, and contribute to the development of innovative and efficient software solutions.
+                    </p> -->
+                    <p>
+                        I am Charan Raj Mahankali, a self-motivated and dedicated undergraduate from Vasavi College of Engineering, Hyderabad, eager to integrate my theoretical knowledge into practical experiences. A quick learner with adaptability to new environments, I welcome feedback and am committed to continuous improvement.
+Demonstrating a strong work ethic, I prioritize meeting deadlines and delivering high-quality work, emphasizing attention to detail. Equipped with a keen understanding of the latest research and industry trends.
+As a dedicated team player, I firmly believe in the power of collaboration to achieve collective success. With a focus on absorbing knowledge and contributing effectively, I am poised to embark on collaborating with cross-functional teams, and contribute to the development of innovative and efficient software solutions.
                     </p>
                 </div>
+                <div class="about-containers">
+                
+                    
+                    <div class="btn-container">
+                        <button class="btn btn-color-1"
+                        onclick="location.href='./#education' ">
+                        Education
+                        </button>
+                    </div>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-1"
+                        onclick="location.href='./#experience' ">
+                        Experience
+                        </button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h1 class="title">Education</h1>
+        <div class="details-container">
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                            <img 
+                                src="./assets/vcepic.jpeg"
+                                alt="vce"
+                                class="vce-icon"
+                            />
+                            <div>
+                                <h1 class="experience-sub-title">Vasavi College of Engineering, Hyderabad, IN</h1>
+                                <p>Bachelor of Engineering in Information technology</p>
+                                <p>May 2024</p>
+                            </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/nricollegepic.png"
+                            alt="nri"
+                            class="vce-icon"
+                        />
+                        <div>
+                            <h1 class="experience-sub-title">NRI Junior College, Hyderabad, Telangana, IN</h1>
+                            <p>Intermediate</p>
+                            <p>2020</p>
+                        </div>
+                </div>
+                    
+                </div>
+                
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/tsswrespic.png"
+                            alt="tsswres"
+                            class="vce-icon"
+                        />
+                        <div>
+                            <h1 class="experience-sub-title">Telangana Social Welfare School, Hyderabad, IN</h1>
+                            <p>SSC</p>
+                            <p>2018</p>
+                        </div>
+                </div>
+                </div>    
+                </div>
+                
             </div>
         </div>
     </section>
@@ -326,7 +390,7 @@
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse My</p>
-        <h1 class="title">Projects</h1>
+        <h1 class="title">Projects/Publications</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container color-container">
@@ -338,7 +402,8 @@
                         />
                     </div>
                     <h2 class="experience-sub-title project-title">Cultivo</h2>
-                    <!-- <p>Cultvio is an agricultural website. This comprehensive agricultural website serves as a one-stop destination for a multitude of agricultural-related resources, offering a seamless experience for users in various languages and enabled with innovative AI solution for crop disease detection.</p> -->
+                    <p>Dynamic Multilingual AgTech with AI</p>
+                    <br>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn"
@@ -363,7 +428,8 @@
                         />
                     </div>
                     <h2 class="experience-sub-title project-title">recipeFinder</h2>
-                    <!-- <p>A user-friendly web application that allows users to search for recipes based on name of the item.</p> -->
+                    <p>Recipe Search Web Application</p>
+                    <br>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn"
@@ -388,7 +454,8 @@
                         />
                     </div>
                     <h2 class="experience-sub-title project-title">QR Code Generator</h2>
-                    <!-- <p>project that generates QR codes with student IDs as the parameters.</p> -->
+                    <p>QR Generator for IDs</p>
+                    <br>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn"
@@ -404,7 +471,63 @@
                         </button>
                     </div>
                 </div>
-                <!-- <div class="details-container color-container">
+            
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/hybridsnpic.jpeg"
+                            alt="hybridsn"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">HybridSN</h2>
+                    <p>Efficient HybridSN Model Development</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/charanraj28/HybridSN'"
+                        >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/charanraj28/HybridSN'"
+                        >
+                            Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                            src="./assets/librarypic.jpeg"
+                            alt="library"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">College Library Database</h2>
+                    <p>College Library Database System</p>
+                    <br>
+                    <div class="btn-container">
+                        <button 
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/charanraj28/College-Library-Database'"
+                        >
+                            Github
+                        </button>
+                        <button 
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/charanraj28/College-Library-Database'"
+                        >
+                            Demo
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="details-container color-container">
                     <div class="article-container">
                         <img 
                             src="./assets/dendrogram2_new.png"
@@ -414,7 +537,8 @@
                     </div>
                     
                     <h2 class="experience-sub-title project-title">System Dendrogram</h2>
-                    <p>The Dendrogram is a visual representation of the compound correlation data. It is a type of tree diagram showing hierarchical clustering relationships between similar sets of data. This project aims about drawing dendrogram for system.</p>
+                    <p>Visualizing System Correlation</p>
+                    <br>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn"
@@ -429,7 +553,8 @@
                             Demo
                         </button>
                     </div>
-                </div> -->
+                </div>
+                
             </div>
         </div>
     </section>

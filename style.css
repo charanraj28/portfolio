@@ -399,6 +399,10 @@ article .icon{
     cursor: default;
 }
 
+.vce-icon{
+    height: 8rem;
+    align-items: start;
+}
 /* Footer */
 
 footer{
